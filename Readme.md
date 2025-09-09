@@ -45,7 +45,7 @@ Esta aplicación permite generar números pseudoaleatorios mediante tres algorit
 
 ## Estructura del proyecto
 
-```
+
 Calculadora
 │
 ├── principal.py 
@@ -56,7 +56,7 @@ Calculadora
 │ └── util_calculos.py
 │ └── exporter.py
 └── README.md
-```
+
 ---
 
 ## Uso
