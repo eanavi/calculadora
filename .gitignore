@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env
+.env/
+
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de salida / temporales
+*.log
+*.tmp
+*.bak
+
+# Archivos generados por Excel
+*.xlsx
+
+# Archivos de configuración de IDEs
+.idea/
+.vscode/
+*.suo
+*.user
+*.useros
+*.sln.docstates
+
+# Carpeta de __pycache__ de la librería utils
+utils/__pycache__/
+
+# Otros archivos que no deben subirse
+*.pyc
