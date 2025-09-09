@@ -45,9 +45,10 @@ Esta aplicación permite generar números pseudoaleatorios mediante tres algorit
 
 ## Estructura del proyecto
 
+```
 Calculadora
 │
-├── principal.py # Archivo principal para la construccion de la aplicacion
+├── principal.py # Archivo principal para la construccion de la aplicacion \n
 ├── formularios/
 │ └──frm_maestro.py #Contiene el formulario y los metodos principales
 ├── util/
@@ -55,6 +56,15 @@ Calculadora
 │ └── util_calculos.py # Las utilidades de calculo
 │ └── exporter.py #para la exportacion de datos
 └── README.md
+```
+
+## Caputras de pantalla
+La primera pantalla muestra la interface para el usuario principal, con los 
+controles necesarios para que pueda generar los datos necesarios
+
+![Pantalla Uno](assets/Pantalla1.png)
+
+
 
 ## Uso
 
