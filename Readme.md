@@ -67,7 +67,19 @@ python main.py
 
 ```
 ## Captura de Pantallas del Sistema
+
+### Pantalla Principal
 ![Pantalla Principal](assets/Pantalla1.png)
+
+En esta pantalla se puede apreciar los principales elementos del programa
+
+### Pantalla de graficacion de resultados
+![Pantalla de Graficacion](assets/Aleatorios.png)
+Pantalla que muestra la generacion de números de forma gráfica
+
+### Pantalla de exportacion de resultados a excel
+![Pantalla de Exportacion](assets/Exporta.png)
+
 
 
 Autor
