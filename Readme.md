@@ -45,26 +45,18 @@ Esta aplicación permite generar números pseudoaleatorios mediante tres algorit
 
 ## Estructura del proyecto
 
+
 ```
 Calculadora
 │
-├── principal.py # Archivo principal para la construccion de la aplicacion \n
+├── principal.py # Archivo principal para la construccion de la aplicacion
 ├── formularios/
-│ └──frm_maestro.py #Contiene el formulario y los metodos principales
+│ └──frm_maestro.py #Archivo del Formulario principal
 ├── util/
-│ └── util_ventana.py #Metodos para desplegar la ventana
-│ └── util_calculos.py # Las utilidades de calculo
-│ └── exporter.py #para la exportacion de datos
+│ └── util_ventana.py #Utilitarios de ventana
+│ └── util_calculos.py #Utilitarios de calculo
+│ └── exporter.py #Programa para exportar
 └── README.md
-```
-
-## Caputras de pantalla
-La primera pantalla muestra la interface para el usuario principal, con los 
-controles necesarios para que pueda generar los datos necesarios
-
-![Pantalla Uno](assets/Pantalla1.png)
-
-
 
 ## Uso
 
@@ -74,6 +66,9 @@ controles necesarios para que pueda generar los datos necesarios
 python main.py
 
 ```
+## Captura de Pantallas del Sistema
+![Pantalla Principal](assets/Pantalla1.png)
+
 
 Autor
 Nombre: Elvis Roger Anavi Jimenez
