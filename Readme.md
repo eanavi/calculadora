@@ -48,7 +48,7 @@ Esta aplicación permite generar números pseudoaleatorios mediante tres algorit
 
 Calculadora
 │
-├── principal.py 
+├── principal.py \n
 ├── formularios/
 │ └──frm_maestro.py 
 ├── util/
