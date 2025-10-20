@@ -1,6 +1,6 @@
-def centrar_ventana(ventana,aplicacion_ancho,aplicacion_largo):    
-    pantall_ancho = ventana.winfo_screenwidth()
-    pantall_largo = ventana.winfo_screenheight()
-    x = int((pantall_ancho/2) - (aplicacion_ancho/2))
-    y = int((pantall_largo/2) - (aplicacion_largo/2))
-    return ventana.geometry(f"{aplicacion_ancho}x{aplicacion_largo}+{x}+{y}")
+def centrar_ventana(ventana, ancho, alto):
+    ancho_ventana = ventana.winfo_width()
+    alto_ventana = ventana.winfo_height()
+    x = (ventana.winfo_screenwidth() // 2) - (ancho_ventana // 2)
+    y = (ventana.winfo_screenheight() // 2) - (alto_ventana // 2)
+    ventana.geometry(f"{ancho}x{alto}+{x}+{y}")

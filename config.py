@@ -1,3 +1,5 @@
+import tkinter as tk
+
 COLOR_BARRA_SUPERIOR = "#1f2329"
 COLOR_CUERPO_PRINCIPAL = "#f1faff"
 COLOR_CONTROLES = "#2f88c5"
