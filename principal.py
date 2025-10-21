@@ -39,6 +39,13 @@ class MainApp(tk.Tk):
         self.clear_window()
         self.form_continua = FormularioContinua(self.container)
         self.form_continua.pack(fill=tk.BOTH, expand=True)
+        #'''
+        #try:
+        #    from formularios.metodos.uniforme_continua import start_automata
+        #    start_automata(100, 70, 8)
+        #except Exception as e:
+        #    print("No se pudo iniciar el automata celular", e)
+        #'''
 
     def clear_window(self):
         for widget in self.container.winfo_children():
